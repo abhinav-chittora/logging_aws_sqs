@@ -10,7 +10,8 @@ setup(
     author='abhinav-chittora',
     author_email='chittora.abhinav@googlemail.com',
     url='https://github.com/abhinav-chittora/logging_aws_sqs.git',
-    packages=['logging_splunk_hec'],
+    keywords=['logging', 'aws', 'sqs', 'log'],
+    packages=['logging_aws_sqs'],
     install_requires=['requests >= 2.6.0, < 3.0.0', 'requests'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
